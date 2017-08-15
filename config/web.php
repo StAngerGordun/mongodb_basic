@@ -38,7 +38,15 @@ $config = [
                 ],
             ],
         ],
-        'db' => $db,
+        'db' => [
+            'class' => 'yii\\mongodb\\debug\\MongoDbPanel',
+            'db' => 'mongodb',
+        ],
+        'mongodb' => [
+            'class' => '\yii\mongodb\Connection',
+            'dsn' => 'mongodb://localhost:27017/bintime',
+            ],
+        
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,

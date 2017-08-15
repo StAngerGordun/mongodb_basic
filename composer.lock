@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a48585ef819fc004ff7e513d97a2196",
+    "content-hash": "cea93be82b15c52b43a23c7352e3bc61",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -367,6 +367,57 @@
                 "mailer"
             ],
             "time": "2017-05-01T15:54:03+00:00"
+        },
+        {
+            "name": "yii2tech/embedded",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yii2tech/embedded.git",
+                "reference": "7f101ab761d39e8463e7290c103676dae5234c3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yii2tech/embedded/zipball/7f101ab761d39e8463e7290c103676dae5234c3d",
+                "reference": "7f101ab761d39e8463e7290c103676dae5234c3d",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii2tech\\embedded\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
+                }
+            ],
+            "description": "Provides support for embedded (nested) models in Yii2",
+            "keywords": [
+                "elastic",
+                "elasticsearch",
+                "embed",
+                "embedded",
+                "mongo",
+                "mongodb",
+                "nested",
+                "yii2"
+            ],
+            "time": "2016-10-17T14:17:57+00:00"
         },
         {
             "name": "yiisoft/yii2",
